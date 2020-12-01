@@ -1,9 +1,10 @@
 {
     "name": "zoilomora/kimsufi-servers-availability",
+    "description": "Script to notify the availability of Kimsufi servers by Telegram",
     "type": "project",
-    "license": "proprietary",
+    "license": "MIT",
     "require": {
-        "ext-curl": "*",
+        "php": "^7.4",
         "ext-json": "*",
         "guzzlehttp/guzzle": "^7.2"
     },

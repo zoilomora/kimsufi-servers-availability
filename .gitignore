@@ -16,5 +16,4 @@ Thumbs.db
 .DS_Store
 
 /vendor/
-/composer.lock
 /config.php
