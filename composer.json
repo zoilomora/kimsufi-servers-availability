@@ -1,0 +1,24 @@
+{
+    "name": "zoilomora/kimsufi-servers-availability",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZoiloMora\\Kimsufi\\": "src/"
+        },
+        "files": [
+            "config.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require-dev": {
+        "pccomponentes/coding-standard": "^1.2"
+    }
+}

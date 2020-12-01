@@ -1,0 +1,18 @@
+<?php
+
+define('TELEGRAM_TOKEN', 'telegram-token');
+define('TELEGRAM_CHAT_ID', 'telegram-chat-id');
+
+function regions()
+{
+    return [
+        'europe',
+    ];
+}
+
+function hardware()
+{
+    return [
+        '1801sk17',
+    ];
+}
